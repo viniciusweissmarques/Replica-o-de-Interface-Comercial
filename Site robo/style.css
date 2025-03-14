@@ -1,0 +1,22 @@
+body {
+    background-color: whitesmoke;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.cinza {
+    padding: 150px;
+    margin: ;
+        background-color: rgb(151, 200, 240);
+    box-sizing: border-box;
+}
+
+.flexivel {
+    display: flex;
+}
+.esticar{
+  padding: 250px;  
+}

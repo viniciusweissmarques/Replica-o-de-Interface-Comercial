@@ -1,83 +1,18 @@
-body{
-    margin: 0;
-    padding: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+body {
+    background-color: rgb(69, 76, 210);
 }
-.flex{
-    display: flex;
-}
-.box_cinza{
-    background-color: #DDDDDD;
-    padding: 1px;
-}
-#titulo{
-    margin-left: 15px;
-}
-#listra{
-    height: 20px;
-    width: 100%;
-}
-.button{
 
+.container {
+    max-width: 660px;
+    margin: 0 auto;
+}
+
+.amarelo {
+    padding: 100px;
+    margin: 10px;
+    background-color: rgb(210, 194, 69);
+    box-sizing: border-box;
+}
+
+.flexivel {
     display: flex;
-    align-items: center;
-    background-color: #e6e6e6;
-}
-.img_button{
-    width: 30px;
-    height: 30px;
-    margin: 3px;
-}
-.navigation_itens{
-    width: 24px;
-    height: 24px;
-}
-.img_navigation{
-    width: 24px;
-    height: 24px;
-}
-.navigation_box{
-    width: 24px;
-    height: 24px;
-}
-#navigation_minorBox{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    width: 300px;
-}
-#navigation_box{
-    padding: 10px;
-    display: flex;
-    margin-top: 60px;
-}
-#buttons_navigation{
-    background-color: #DDDDDD;
-}
-#buttons_navigationPage{
-    height: 40px;
-    display: flex;
-    justify-content: space-around;
-}
-.title_table{
-    width: 70px;
-}
-.empty{
-    width: 30px;
-    background-color: #DDDDDD;
-}
-th{
-    background-color: #DDDDDD;
-    border: solid grey;
-}
-td{
-    border: solid rgb(161, 161, 161);
-}
-#navbar_main{
-    display: flex;
-    justify-content: space-around;
-}
-#div_main2{
-    margin-left: 300px;
-    margin-top: 60px;
-}
