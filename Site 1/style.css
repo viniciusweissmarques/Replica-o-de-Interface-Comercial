@@ -36,9 +36,9 @@ body{
     width: 24px;
     height: 24px;
 }
-.navigation_box{
-    width: 24px;
-    height: 24px;
+#navigation_box{
+    border-top: 40px solid rgb(168, 167, 167);
+    border-right: 80px solid rgb(168, 168, 168);
 }
 #navigation_minorBox{
     display: flex;
@@ -80,4 +80,13 @@ td{
 #div_main2{
     margin-left: 300px;
     margin-top: 60px;
+    display: flex;
+}
+
+.expandir {
+    width: 200px;
+}
+#div_tabela1{
+border-top: 25px solid grey;
+border: 60px solid rgb(190, 188, 188);
 }
