@@ -24,6 +24,46 @@
 }
 
 .img{
-    height: 20px;
+    height: 5000px;
     width: 100%;
+}
+
+.texto-e-imagem {
+    display: flex;
+    align-items: center; 
+}
+
+.texto-e-imagem .texto {
+    margin-right: 50px; 
+}
+
+.texto-e-imagem img {
+    max-width: 1250px;
+    height: auto;
+}
+
+.texto-e-imagem .texto h1 {
+    color: #1646af;
+}
+
+.texto-e-imagem {
+    display: flex;
+    align-items: center; 
+}
+
+.texto-e-imagem .texto {
+    margin-left: 20px; 
+}
+
+.texto-e-imagem img {
+    max-width: 200px; 
+    height: auto;
+}
+
+
+.imagem-abaixo {
+    margin-top: 20px; 
+    max-width: 200px;
+    height: auto;
+    display: block; 
 }
