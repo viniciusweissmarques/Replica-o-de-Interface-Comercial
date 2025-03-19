@@ -226,42 +226,162 @@
                 </div>
             </div>
 
-            <div id="div_main2">
-                <div>
-                    <div id="div_main2">
-                        <div>
-                            <img src="img/seta.png" alt="seta" class="Overview_Page_Schema">
-                        </div>
-                        <div>
-                            <h3> Overview Page Schema </h3>
-                        </div>
-                        <div>
-                            <h4> Toolbar Schema </h4>
-                        </div>
-                        <div>
-                            <h4> Wire Schema </h4>
-                        </div>
-                    </div>
-                    <div id="div_tabela1">
-                        <table class="tabelas">
+            <div>
+
+                <div class="pesquisa">
+                    <table>
+
+                        <h1>Overview Page schena</h1>
+                        <div class="navbar">
+
+                            <button>📖Page master Area </button>
+                            <button>📖Section</button>
+                            <button>📖UIBB</button>
+                            <button>🗑</button>
+                            <button>UP</button>
+                            <button>DOWN</button>
+
                             <tr>
-
-                                <th id="Element" class="expandir">Element </th>
-                                <th id="Component" class="expandir">Component</th>
-                                <th id="Config Id" class="expandir">Config Id</th>
-                                <th id="WindowName" class="expandir ">Window Name</th>
+                                <th>Element</th>
+                                <th>Component</th>
+                                <th>Config ID</th>
+                                <th>Window Name</th>
                             </tr>
+                            <tr>
+                                <th>📟Section:section_1 </th>
+                                <th></th>
+                                <th></th>
+                                <th></th>
+                            </tr>
+                            <tr>
+                                <td>UIBB: $OTR:/SCMTMS/UI _...</td>
+                                <td>FPM_FORM_UIBB_GL2</td>
+                                <td>/SCMTMS/WDCC_FWO_GEN</td>
+                                <td>FORM_WINDOW</td>
+                            </tr>
+                            <tr>
+                                <td>UIBB: $OTR:/SCMTMS/UI _....</td>
+                                <td>FPM_FORM_UIBB_GL2</td>
+                                <td>/SCMTMS/WDCC_CMN_ADMINDATA</td>
+                                <td>FORM_WINDOW</td>
 
-                            <div>
+                            </tr>
+                            <tr>
+                                <td>UIBB: $OTR:/SCMTMS/UI _...</td>
+                                <td>FPM_TABBED_UIBB </td>
+                                <td>/SCMTMS/WDCC_TRQ_BUPA</td>
+                                <td>TABBED_WINDOW
 
-                            </div>
-                    </div>
+                                </td>
 
-                    <div>
+                            </tr>
+                            <tr>
+                                <td>UIBB: $OTR:/SCMTMS/UI _...</td>
+                                <td>/SCMTMS/WDCC_DOC_FLOW </td>
+                                <td>/SCMTMS/WDCC_DOC_FLOW </td>
+                                <td>TREE_WINDOW </td>
 
-                    </div>
-                </div>
+                            </tr>
+                            <tr>
+                                <td>UIBB: $OTR:/SCMTMS/UI _..</td>
+                                <td>FPM_TREE_UIBB</td>
+                                <td>/SCMTMS/WDCC_TCM_CHARGES_TA</td>
+                                <td>TABBED_WINDOW</td>
+
+                            </tr>
+                    </table>
+                </div class="red">
+
+
+                <h1>Attributes of UIBB: $OTR:/SCMTMS/UI_CMN/ADM_INFO</h1>
+                <table>
+                    <tr>
+                        <th>Attribute</th>
+                        <th>Value</th>
+                    </tr>
+                    <tr>
+                        <td><label for="window-name">Window Name</label></td>
+                        <td><input type="text" id="window-name" value="FORM_WINDOW" readonly></td>
+                    </tr>
+                    <tr>
+                        <td><label for="title">Title</label></td>
+                        <td><input type="text" id="title" value="SOTR:/SCMTMS/UI_CMN/ADM_INFO" readonly>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="config-id">Config ID</label></td>
+                        <td><input type="text" id="config-id" value="/SCMTMS/WDCC_CMN_ADMINDATA" readonly>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="instance-id">Instance ID</label></td>
+                        <td><input type="text" id="instance-id" readonly></td>
+                    </tr>
+                    <tr>
+                        <td><label for="column">Column</label></td>
+                        <td><input type="number" id="column" value="1" readonly></td>
+                    </tr>
+                    <tr>
+                        <td><label for="row-number">Row Number</label></td>
+                        <td><input type="text" id="row-number" value="Visible" readonly></td>
+                        <div>
+                    </tr>
+                    <tr>
+                        <td><label for="sequence-index">Sequence Index</label></td>
+                        <td><input type="text" id="sequence-index" value="Hidden and Excluded from Event Loop"
+                                readonly>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="default">Default</label></td>
+                        <td><input type="text" id="default" value="Hidden but Processed in Event Loop (Technical)"
+                                readonly>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="hidden-element">Hidden Element</label></td>
+                        <td>
+                            <select id="hidden-element" readonly>
+                                <option value="Visible" selected>Visible</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="image">Image</label></td>
+                        <td><input type="text" id="image" readonly></td>
+                    </tr>
+                    <tr>
+                        <td><label for="padding">Padding</label></td>
+                        <td>
+                            <select id="padding" readonly>
+                                <option value="Automatic (Default)" selected>Automatic (Default)</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="style">Style</label></td>
+                        <td><input type="text" id="style" readonly></td>
+                    </tr>
+                    <tr>
+                        <td><label for="explanation-text">Explanation Text</label></td>
+                        <td><input type="text" id="explanation-text" readonly></td>
+                    </tr>
+                    <tr>
+                        <td><label for="explanation-document">Explanation Document</label></td>
+                        <td><input type="text" id="explanation-document" readonly></td>
+                    </tr>
+                    <tr>
+                        <td><label for="default-edit-page">Default Edit Page</label></td>
+                        <td><input type="text" id="default-edit-page" readonly></td>
+                    </tr>
+                    <tr>
+                        <td><label for="default-details-page">Default Details Page</label></td>
+                        <td><input type="text" id="default-details-page" readonly></td>
+                    </tr>
             </div>
+        </div>
+    </div>
+    </div>
         </div>
     </main>
 

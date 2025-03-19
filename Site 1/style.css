@@ -90,3 +90,21 @@ td{
 border-top: 25px solid grey;
 border: 60px solid rgb(190, 188, 188);
 }
+flex {
+    display: flex;
+}
+
+th,td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    background-color: rgb(174, 169, 169);
+}
+.pesquisa{
+   padding:0px;  
+}
+.navbar{
+
+
+
+}
